@@ -36,7 +36,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [x86_64,redmi_ac2100]
+        target: [x86_64]
         
     steps:
     - name: Checkout
